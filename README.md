@@ -41,7 +41,7 @@ another language. [paper](https://arxiv.org/abs/2206.10789)
 masked image tokens. Compared with diffusion or autoregressive models, Muse is more efficient. [paper](https://arxiv.org/abs/2301.00704)
 
 
-## Vision-Language pretrain model
+## Vision-Language Pre-training model
 * **CLIP**: Learning Transferable Visual Models From Natural Language Supervision 
 
   The pre-training task of CLIP is predicting which caption goes with which image through contrast learning loss. The model transfers 
