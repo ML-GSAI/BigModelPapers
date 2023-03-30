@@ -40,6 +40,12 @@ another language. [paper](https://arxiv.org/abs/2206.10789)
   Given the text embedding extracted from a pre-trained large language model (LLM), Muse is trained to predict randomly 
 masked image tokens. Compared with diffusion or autoregressive models, Muse is more efficient. [paper](https://arxiv.org/abs/2301.00704)
 
+## Unified generative model
+* **UniDiffuser**: UniDiffuser claims that learning diffusion models for marginal, conditional, and joint distributions can
+be unified as predicting the noise in the perturbed data, where the perturbation levels (i.e. timesteps)
+can be different for different modalities. UniDiffuser is able to perform image, text, text-to-image, image-to-text, and image-text 
+pair generation by setting proper timesteps without additional overhead. 
+[paper](https://ml.cs.tsinghua.edu.cn/diffusion/unidiffuser.pdf)
 
 ## Vision-Language Pre-training model
 * **CLIP**: Learning Transferable Visual Models From Natural Language Supervision 
